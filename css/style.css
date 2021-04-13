@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+    background-color: black;
+    color: green;
+    text-align: center;
+    border: solid 2px white;
+    height: 100px;
+}
+
+header h1 {
+    margin-top: 20px;
+}
+
+header p {
+    margin-top: -10px;
+}
+
+nav {
+    background-color: green;
+    color: white;
+    height: 40px;
+    margin: 15px;
+    border-radius: 10px;
+    padding-left: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    position: relative;
+    top: 10px
+}
+
+.active {
+    background-color: darkgreen;
+}
+
+nav a:hover {
+    color: gray;
+}
+
+main{
+    margin: 15px;
+}
+
+main h3, h2 {
+    color: green;
+}
+main h2 {
+    font-size: 2em;
+}
+
+.container {
+    margin: 20px;
+}
+
+.background {
+
+}
+
+.content time {
+    font-size: 0.7em
+}
+
+.content time a, span {
+    color: grey;
+    text-decoration: none;
+    padding-right: 3px;
+}
+
+.sidebar {
+    float: left;
+    width: 30%;
+}
+
+.sidebar p {
+    padding: 5px;
+}
+
+footer {
+    clear: both;
+    background-color: green;
+    color: white;
+    text-align: center;
+    border: solid 2px white;
+    height: 40px;
+    padding-top: 15px;
+    margin-top: 30px;
+}
